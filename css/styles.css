@@ -1,0 +1,53 @@
+html,
+body {
+    width: 100%;
+    height: auto;
+    background-color: rgb(252, 249, 236);
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.main {
+    width: 150px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.element {
+    margin: 1%;
+}
+
+.input-count {
+    width: 10%;
+}
+
+#calculate {
+    font-size: 10px;
+    font-family: Verdana, Helvetica;
+    font-weight: bold;
+    color: white;
+    background: #638cb5;
+    border: 0px;
+    width: 80px;
+    height: 19px;
+}
+
+#calculate:hover {
+    background: #7f9cb9;
+}
